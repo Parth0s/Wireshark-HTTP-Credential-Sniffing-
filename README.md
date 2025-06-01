@@ -32,4 +32,6 @@ A simple project that demonstrates how HTTP credentials can be captured from net
 4. The POST data, including `username` and `password`, is visible in plaintext in the capture.
 5. The capture is filtered using:
    ```wireshark
-   http.request.method == "POST"
+   **http.request.method == "POST"**
+6. Credentials are shown under:
+     ** HTML Form URL Encoded: application/x-www-form-urlencoded**
